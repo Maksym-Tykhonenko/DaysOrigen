@@ -17,20 +17,44 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.1</string>
+	<string>1.0.2</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>2</string>
+	<string>3</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>scotiabank</string>
+		<string>bmoolbb</string>
+		<string>cibcbanking</string>
+		<string>conexus</string>
+		<string>rbcmobile</string>
+		<string>pcfbanking</string>
+		<string>tdct</string>
+		<string>blank</string>
+		<string>wise</string>
+		<string>bncmobile</string>
+		<string>connexion</string>
+		<string>skrill</string>
+		<string>nl.abnamro.deeplink.psd2.consent</string>
+		<string>nl-snsbank-sign</string>
+		<string>nl-asnbank-sign</string>
+		<string>triodosmobilebanking</string>
+		<string>nbc</string>
+		<string>nbc.ca</string>
+		<string>bncmobile</string>
+		<string>app.nbc.ca</string>
+		<string>revolut</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
-		<false/>
-		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
+	<key>NSCalendarsUsageDescription</key>
+	<string>This app uses the calendar to display and manage dates.</string>
 	<key>NSCameraUsageDescription</key>
 	<string>This app uses the camera to take a user avatar and photo to store in app private internal data set.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
@@ -39,6 +63,8 @@
 	<string>To record audio files during video recording</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>This app uses the Photo Library to select a photo only.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>To analyze the effectiveness of our marketing efforts and to improve the interaction with our users</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>AntDesign.ttf</string>
